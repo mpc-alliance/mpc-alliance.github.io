@@ -1,5 +1,5 @@
 ---
-title: GMW protocol
+title: ZenGo
 parent: Vendors
 grand_parent: Contents
 has_children: true
@@ -16,5 +16,5 @@ Our goal is to take threshold cryptography all the way from theory to the cconsu
 
 
 #### Links
-- [website](ZenGo.com)
+- [Website](https://zengo.com)
 - [Github](https://github.com/KZen-networks/)
