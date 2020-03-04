@@ -2,7 +2,7 @@
 title: MPC Use Cases
 parent: Contents
 has_children: true
-nav_order: 1
+nav_order: 5
 ---
 
 # MPC Use Cases
