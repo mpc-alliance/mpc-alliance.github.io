@@ -6,7 +6,7 @@ has_children: true
 nav_order: 2
 ---
 
-# Offchain Lab 
+# Offchain Labs 
 
 ![Offcain Labs](/assets/images/offchain_logo.png)
 
