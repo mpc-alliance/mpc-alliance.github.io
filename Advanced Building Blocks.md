@@ -1,5 +1,5 @@
 ---
-title: Basic Building Blocks
+title: Advanced Building Blocks
 parent: Contents
 has_children: true
 nav_order: 2
