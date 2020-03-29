@@ -3,23 +3,14 @@ title: Garbled Circuit
 parent: Protocols
 grand_parent: Contents
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
-# Secure Multi-Party Computation from Garbling
+# Garbled circuit protocol
 
+Before technique details, one should define the security goal, which is called the [security model](security_model.md) in cryptography. The [semi-honest model](semi_honest_adversary.md) and [malicious model](malicious_adversary.md) are widely considered to capture the capabilities of adversaries.
 
-Author: Xiang Xie @PlatON
-
-This post was initially published in [PlatON](https://www.platon.network/news/4?newsType=2).
-
-As described in the previous article, secure multi-party computation protocols are distributed protocols that allow participated players to jointly compute some pre-agreed function without revealing the privacy of each input information. PlatON provides an end-to-end MPC framework to enable privacy-preserving computation. In this article, we will get into more details on the techniques to show how it works.
-
-Before technique details, one should define the security goal, which is called the security model in cryptography. The semi-honest model and malicious model are widely considered to capture the capabilities of adversaries.
-
-In the semi-honest setting, the players strictly follow the instructions of the protocol, and are still curious to learn information of other inputs from the transactions. This is meaningful in some enterprise-to-enterprise business scenarios, where the enterprises must strictly follow the procedure and the codes are run in some safe place that stuffs can not touch. The malicious setting is more realistic, which means the players could do what they can to get private information of other inputs. A secure MPC protocol means that in both setting, all the players can not learn any additional information of the outputs. Note that "additional information" here does not mean "any information" of the input, anything could directly derived from the output result is allowed to be learned by the players.
-
-Many specific techniques are proposed to construct semi-honest or malicious MPC protocols, such as garbled circuit, secret sharing, oblivious transfer, homomorphic encryption and their combinations. In this article, we introduce the classic Yao's garbled circuit in the two-party setting, it is also one of the most efficient constructions by now.
+In this article, we introduce the classic Yao's garbled circuit in the two-party setting, it is also one of the most efficient constructions by now.
 
 Alice and Bob who have private input $x$ and $y$ respectively, want to jointly compute a function f and both obtain the result $z=f(x,y)$ without revealing anything else. One should first use a circuit compiler to convert the function $f$ into boolean circuit that consists of AND and XOR gate (as shown in Figure 1). Since most real-world programs written in advanced language contain complex data structures, this is a highly non-trivial task.
 
@@ -65,13 +56,16 @@ After running the oblivious transfer protocol with Alice, Bob gets the labels $C
 
 So far, we illustrate the basic principle of Yao's garbled circuits. For almost 40 years, many optimized techniques are proposed to improve this basic protocol. Free-XOR (no encryption for XOR gate), row reduction and half gate (reduce the number of each AND gate to 2 ciphertexts) techniques and hardware acceleration (using AES-NI ) significantly improve the efficiency of garbled circuit.
 
-Garbling is one of the most useful and practical techniques to implement MPC protocols. The computation cost of garbling is very low since using AES-NI. The round complexity of garbling-based protocol is constant, which is good in practice. However, the amount of data in communication is relatively large, and it is more suitatble for high-bandwidth network environment.  
+Garbling is one of the most useful and practical techniques to implement MPC protocols. The computation cost of garbling is very low since using AES-NI. The round complexity of garbling-based protocol is constant, which is good in practice. However, the amount of data in communication is relatively large, and it is more suitatble for high-bandwidth network environment.
 
-####References
+#### References
 
 1. Protocols for secure computations. Andrew C. Yao.
-2. How to Generate and Exchange Secrets. Andrew C. Yao. 
-3. How to exchange secrets with oblivious transfer. Michael O. Rabin. 
+2. How to Generate and Exchange Secrets. Andrew C. Yao.
+3. How to exchange secrets with oblivious transfer. Michael O. Rabin.
 4. Improved Garbled Circuit: Free XOR Gates and
 Applications. Vladimir Kolesnikov, Thomas Schneider.
 5. Practical Garbled Circuit Optimizations. Mike Rosulek. [https://web.engr.oregonstate.edu/~rosulekm/](https://web.engr.oregonstate.edu/~rosulekm/)
+
+
+Author: Xiang Xie @PlatON
