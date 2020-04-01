@@ -8,23 +8,20 @@ nav_order: 1
 
 # Sepior ApS
 
-![Sepior](/assets/images/sepior_logo.png)
+![Sepior](/assets/images/sepior_logo_dark.png)
 
 
 Sepior offers the following application optimized MPC-based toolsets and solutions:
 
-### [Sepior™ ThresholdSig](https://sepior.com/thresholdsig): 
-Institutional-grade, threshold signing for digital asset wallets 
+[Sepior™ ThresholdSig](https://sepior.com/thresholdsig): Institutional-grade, threshold signing for digital asset wallets. 
 
 Enabling disruptive new levels of transaction security, liquidity, and performance for some of the largest financial services firms in the world 
 
-### [Sepior™ Threshold KMS](https://sepior.com/threshold-kms): 
-Distributed key management for distributed applications
+[Sepior™ Threshold KMS](https://sepior.com/threshold-kms): Distributed key management for distributed applications
 
 Decentralizing key management to provide granular privacy control for truly collaborative, decentralized blockchain services 
 
-### [Sepior™ Threshold KMaaS](https://sepior.com/threshold-kmaas):
-Cloud-native, Key Management as a Service
+[Sepior™ Threshold KMaaS](https://sepior.com/threshold-kmaas): Cloud-native, Key Management as a Service
 
 Multi-cloud distributed KMaaS platform delivering total customer encryption key management and BYOK. 
 
