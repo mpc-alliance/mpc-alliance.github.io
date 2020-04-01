@@ -1,5 +1,5 @@
 ---
-title: Semi-honest adversary
+title: Semi-honest Adversary
 parent: Security model
 grand_parent: Contents
 has_children: true
