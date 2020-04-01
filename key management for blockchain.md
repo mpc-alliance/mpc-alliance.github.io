@@ -1,12 +1,12 @@
 ---
-title: Key management in blockchain systems
+title: Threshold Signing in Blockchains
 parent: MPC Use Cases
 grand_parent: Contents
 has_children: true
 nav_order: 1
 ---
 
-# Key management in Blockchain Systems
+# Threshold Signing in Blockchains
 
 
 Threshold signature scheme (TSS) is a sub field of MPC computing digital signatures in a distributed way. 

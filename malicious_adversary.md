@@ -1,5 +1,5 @@
 ---
-title: Malicious adversary
+title: Malicious Adversary
 parent: Security model
 grand_parent: Contents
 has_children: true
