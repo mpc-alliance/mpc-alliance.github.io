@@ -4,7 +4,9 @@
 
 Multi-party computation (MPC) is a branch of cryptography that started with the seminal work of Andrew C. Yao in the 1980s. In MPC, a set of parties that do not trust each other try to jointly compute a function over their inputs while keeping those inputs private. 
 
-As an example, let us say that n employees of a company wants to know who is getting paid the most but without revealing to each other their actual salary. Here the private inputs are salaries and the output will be the name of the employee with highest salary. Doing this computation using MPC we get that not even a single salary is leaked during the computation. 
+As an example, let us say that `n` employees of a company want to know who is getting paid the most but without revealing to each other their actual salary. 
+Here the private inputs are salaries and the output will be the name of the employee with highest salary.
+Doing this computation using MPC we get that not even a single salary is leaked during the computation. 
 
 The two main properties of MPC are correctness and privacy:
 
