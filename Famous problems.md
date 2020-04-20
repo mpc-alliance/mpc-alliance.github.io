@@ -1,6 +1,5 @@
 ---
 title: Famous Problems
-parent: Contents
 has_children: true
 nav_order: 7
 ---

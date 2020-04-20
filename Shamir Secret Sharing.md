@@ -1,7 +1,6 @@
 ---
 title: Shamir Secret Sharing
 parent: Advanced Building Blocks
-grand_parent: Contents
 has_children: true
 nav_order: 1
 ---
