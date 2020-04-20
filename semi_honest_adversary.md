@@ -1,7 +1,6 @@
 ---
 title: Semi-honest Adversary
 parent: Security model
-grand_parent: Contents
 has_children: true
 nav_order: 1
 ---

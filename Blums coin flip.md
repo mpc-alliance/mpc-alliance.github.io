@@ -1,7 +1,6 @@
 ---
 title: Coin Flipping by Telephone
 parent: Famous Problems
-grand_parent: Contents
 has_children: true
 nav_order: 2
 ---

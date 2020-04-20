@@ -1,7 +1,6 @@
 ---
 title: Cosmian
 parent: Vendors
-grand_parent: Contents
 has_children: true
 nav_order: 5
 ---

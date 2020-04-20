@@ -1,6 +1,5 @@
 ---
 title: MPC Use Cases
-parent: Contents
 has_children: true
 nav_order: 5
 ---

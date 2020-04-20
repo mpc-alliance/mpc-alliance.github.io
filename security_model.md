@@ -1,6 +1,5 @@
 ---
 title: Security model
-parent: Contents
 has_children: true
 nav_order: 8
 ---
