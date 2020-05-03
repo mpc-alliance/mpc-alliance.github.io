@@ -7,7 +7,7 @@ nav_order: 6
 
 # Unbound Tech
 
-(https://info.unboundtech.com/hs-fs/hubfs/2020-unbound/logos/Logo-RGB-transparent.png?width=1000&name=Logo-RGB-transparent.png)
+![Unbound](/assets/images/unbound_logo.png)
 
 
 Unbound Tech creates cryptographic key management and protection solutions designed for an increasingly interconnected world.
