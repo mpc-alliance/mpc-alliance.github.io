@@ -2,7 +2,7 @@
 title: MP-SPDZ
 parent: Systems
 has_children: true
-nav_order: 1
+nav_order: 2
 ---
 
 # MP-SPDZ
